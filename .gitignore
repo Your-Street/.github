@@ -16,6 +16,14 @@ target/
 **/mutants.out*/
 
 # =============================================================================
+# Build output (shared across languages)
+# =============================================================================
+
+dist/
+build/
+out/
+
+# =============================================================================
 # Node.js / JavaScript / TypeScript
 # =============================================================================
 
@@ -27,10 +35,7 @@ pnpm-debug.log*
 .pnpm-store/
 .npm/
 
-# Build output
-dist/
-build/
-out/
+# Framework-specific build caches
 .next/
 .nuxt/
 .output/
@@ -49,8 +54,6 @@ __pycache__/
 *.egg-info/
 *.egg
 .eggs/
-dist/
-build/
 .Python
 env/
 venv/
